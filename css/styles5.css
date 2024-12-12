@@ -1,0 +1,104 @@
+header{
+
+    text-align: center;
+    color:black;
+    }
+
+    a:hover {
+
+        color: blue;
+    }
+
+    nav {
+        background-color: black;
+        margin-top: 0%;
+        height: 50px;
+       
+        
+    }
+
+    .lien{
+    
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .dropdown {
+       position: absolute;
+      
+       
+      }
+      
+      .dropdown-content {
+        position: absolute;
+        display: none;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+       
+      }
+
+      .textshadow{
+
+        text-shadow: 2px 2px;
+        margin-left: 600px;
+      }
+
+      .shadow{
+
+        width: 300px;
+        height: 100px;
+        padding: 15px;
+        background-color: orange;
+        box-shadow: 10px 10px;
+        margin-left: 600px;
+      }
+
+      .rotate {
+        width: 300px;
+        height: 100px;
+        background-color: blueviolet;
+        border: 1px solid black;
+        margin-left: 600px;
+      }
+      
+      div#myDiv {
+        transform: rotate(20deg);
+      }
+
+      .transition {
+        width: 100px;
+        height: 100px;
+        background: paleturquoise ;
+        transition: width 2s;
+        margin-left: 600px ;
+      }
+      
+      div:hover {
+        width: 300px;
+      }
+
+      footer {
+
+        background-color: black;
+        margin-top: 50px;
+        grid-area: footer;
+        height: 150px;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .Labo{
+    
+        text-decoration: none;
+        color: white;
+    }

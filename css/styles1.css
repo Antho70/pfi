@@ -1,0 +1,409 @@
+body{
+
+    text-align: center;
+   
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: max-content; 
+    grid-template-areas:
+        "vide lundi mardi mercredi jeudi vendredi"
+        "un prog vide2 prog2 math philo1"
+        "deux prog vide2 prog2 math philo1"
+        "trois math2 expo fr vide3 vide4"
+        "quatre math2 expo fr vide3 prog3"
+        "cinq math2 expo vide8 vide3 prog3"
+        "six vide6 vide7 vide8 prog4 vide9"
+        "sept vide6 vide7 vide8 prog4 vide9"
+        "huit vide6 philo2 vide8 vide10 expo2"
+        "neuf vide6 philo2 vide8 web expo2"
+        "dix fr2 vide11 vide8 web vide12"
+        "onze fr2 vide11 vide8 web vide12";
+    gap: 0px; 
+    text-align: left;
+}
+
+
+
+
+    
+
+nav {
+    background-color: black;
+    margin-top: 0%;
+    height: 50px;
+    text-align: center;
+   
+    
+}
+
+a:hover {
+
+    color: blue;
+}
+
+.lien{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.cours1{
+
+    text-align: center;
+    border: 2px solid black;
+   
+    
+
+}
+
+.cours2{
+
+    text-align: center;
+    border: 2px solid black;
+    
+    
+
+}
+
+img{
+
+    max-width: 500px;
+    max-height: 500px;
+   float: right;
+    
+}
+
+.gras{
+
+    font-weight: bolder;
+    
+}
+
+.italique{
+
+    font-style: italic;
+}
+
+.margin{
+
+    margin-right: 500px;
+}
+
+.vide{
+
+    grid-area: vide;
+    border: 2px solid black;
+}
+
+.vide2{
+
+    grid-area: vide2;
+    border: 1px solid black;
+}
+
+.vide3{
+
+    grid-area: vide3;
+    border: 1px solid black;
+}
+
+.vide4{
+
+    grid-area: vide4;
+    border: 1px solid black;
+}
+
+.vide5{
+
+    grid-area: vide5;
+    border: 1px solid black;
+}
+
+.vide6{
+
+    grid-area: vide6;
+    border: 1px solid black;
+}
+
+.vide7{
+
+    grid-area: vide7;
+    border: 1px solid black;
+}
+
+.vide8{
+
+    grid-area: vide8;
+    border: 1px solid black;
+}
+
+.vide9{
+
+    grid-area: vide9;
+    border: 1px solid black;
+}
+
+.vide10{
+
+    grid-area: vide10;
+    border: 1px solid black;
+}
+
+.vide11{
+
+    grid-area: vide11;
+    border: 1px solid black;
+}
+
+.vide12{
+
+    grid-area: vide12;
+    border: 1px solid black;
+}
+
+.lundi{
+
+    grid-area: lundi;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.mardi{
+
+    grid-area: mardi;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.mercredi{
+
+    grid-area: mercredi;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.jeudi{
+
+    grid-area: jeudi;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.vendredi{
+
+    grid-area: vendredi;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.un{
+
+    grid-area: un;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.deux{
+
+    grid-area: deux;
+    font-weight: bold;
+    border: 2px solid black;
+    
+
+}
+
+.trois{
+
+    grid-area: trois;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.quatre{
+
+    grid-area: quatre;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.cinq{
+
+    grid-area: cinq;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.six{
+
+    grid-area: six;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.sept{
+
+    grid-area: sept;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.huit{
+
+    grid-area: huit;
+    font-weight: bold;
+    border: 2px solid black;
+
+
+}
+
+.neuf{
+
+    grid-area: neuf;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.dix{
+
+    grid-area: dix;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.onze{
+
+    grid-area: onze;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+.prog{
+
+    grid-area: prog;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.prog2{
+
+    grid-area: prog2;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.prog3{
+
+    grid-area: prog3;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.prog4{
+
+    grid-area: prog4;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.math{
+
+    grid-area: math;
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+
+.math2{
+
+    grid-area: math2;
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+
+
+
+.philo1{
+
+    grid-area: philo1;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.philo2{
+
+    grid-area: philo2;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.expo{
+
+    grid-area: expo;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.expo2{
+
+    grid-area: expo2;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.fr{
+
+    grid-area: fr;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.fr2{
+
+    grid-area: fr2;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.web{
+
+    grid-area: web;
+    border: 1px solid black;
+    background-color: purple;
+
+}
+
+footer {
+
+    background-color: black;
+    margin-top: 50px;
+    grid-area: footer;
+    height: 150px;
+    color: white;
+    text-align: center;
+
+}
+
+.Labo{
+
+    text-decoration: none;
+    color: white;
+}
+

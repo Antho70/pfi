@@ -1,0 +1,162 @@
+header{
+
+    text-align: center;
+    color:black;
+    }
+
+    a:hover {
+
+        color: blue;
+    }
+
+    nav {
+        background-color: black;
+        margin-top: 0%;
+        height: 50px;
+       
+        
+    }
+    
+    .lien{
+    
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        grid-template-rows: max-content; 
+        grid-template-areas:
+           "un deux trois quatre cinq"
+           "web ia logiciel analyste cybersecurite";
+        gap: 0px; 
+        text-align: left;
+        
+    }
+
+    .un, .trois, .cinq, .web, .logiciel, .cybersecurite {
+        background-color: blanchedalmond;
+    }
+    
+    
+    .deux, .quatre, .ia, .analyste {
+        background-color: burlywood;
+    }
+       
+    
+    .sources{
+
+       text-align: center;
+        color: black;
+        
+    }
+
+
+    .un{
+        grid-area: un;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .deux{
+        grid-area: deux;
+        border: 2px solid black;
+        text-align: center;
+
+    }
+
+    .trois{
+
+        grid-area: trois;
+        border: 2px solid black;
+        text-align: center;
+
+    }
+
+    .quatre{
+
+        grid-area: quatre;
+        border: 2px solid black;
+        text-align: center;
+
+    }
+
+    .cinq{
+
+        grid-area: cinq;
+        border: 2px solid black;
+        text-align: center;
+
+    }
+
+    .web{
+
+        grid-area: web;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+    .ia{
+
+        grid-area: ia;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+
+    .logiciel{
+
+        grid-area: logiciel;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+    .analyste{
+
+        grid-area: analyste;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+
+    .cybersecurite{
+
+        grid-area: cybersecurite;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+       
+    }
+
+
+    footer {
+
+        background-color: black;
+        margin-top: 50px;
+        grid-area: footer;
+        height: 150px;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .Labo{
+    
+        text-decoration: none;
+        color: white;
+    }
+
+    
+

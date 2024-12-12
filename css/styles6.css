@@ -1,0 +1,205 @@
+header{
+
+    text-align: center;
+    color:black;
+    }
+
+    a:hover {
+
+        color: blue;
+    }
+
+    nav {
+        background-color: black;
+        margin-top: 0%;
+        height: 50px;
+       
+        
+    }
+
+    .lien{
+    
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    main{
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: max-content; 
+        grid-template-areas:
+           "image1 lien1"
+           "image2 lien2"
+           "image3 lien3"
+           "image4 lien4"
+           "image5 lien5"
+           "image6 lien6"
+           "image7 lien7"
+           "image8 lien8"
+           "image9 lien9"
+           "image10 lien10";
+        gap: 0px; 
+        margin-left: 480px;
+    }
+
+    .image1{
+        grid-area: image1;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien1{
+        grid-area: lien1;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image2{
+        grid-area: image2;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien2{
+        grid-area: lien2;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image3{
+        grid-area: image3;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien3{
+        grid-area: lien3;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image4{
+        grid-area: image4;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien4{
+        grid-area: lien4;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+
+    .image5{
+        grid-area: image5;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien5{
+        grid-area: lien5;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+
+    .image6{
+        grid-area: image6;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien6{
+        grid-area: lien6;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image7{
+        grid-area: image7;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien7{
+        grid-area: lien7;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image8{
+        grid-area: image8;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien8{
+        grid-area: lien8;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image9{
+        grid-area: image9;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien9{
+        grid-area: lien9;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .image10{
+        grid-area: image10;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    .lien10{
+        grid-area: lien10;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    footer {
+
+        background-color: black;
+        margin-top: 50px;
+        grid-area: footer;
+        height: 150px;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .Labo{
+    
+        text-decoration: none;
+        color: white;
+    }

@@ -1,0 +1,70 @@
+header{
+
+    text-align: center;
+    color:black;
+    }
+
+    a:hover {
+
+        color: blue;
+    }
+
+    nav {
+        background-color: black;
+        margin-top: 0%;
+        height: 50px;
+       
+        
+    }
+
+    .lien{
+    
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+   
+        
+
+    img{
+
+        max-width: 500px;
+        max-height: 500px;
+       float: right;
+       margin-right: 100px;
+       border: 2px solid black;
+       padding: 20px;
+      
+      
+    }
+    
+    .disciplines{
+        margin-right: 900px;
+    }
+
+    .description{
+
+        text-align: center;
+    }
+
+
+    footer {
+
+        background-color: black;
+        margin-top: 50px;
+        grid-area: footer;
+        height: 150px;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .Labo{
+    
+        text-decoration: none;
+        color: white;
+    }
+
+   
